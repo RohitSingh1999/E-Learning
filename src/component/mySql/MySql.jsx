@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Introduction from './Introduction';
-import HtmlHome from './HtmlHome';
-import HtmlHeading from './HtmlHeading';
 
-function Html() {
+
+
+function MySql() {
     const [selectedLink, setSelectedLink] = useState('HTML HOME');
 
     const handleLinkClick = (link) => {
@@ -128,17 +127,17 @@ function Html() {
                     <section className="mb-4">
                         {selectedLink === 'HTML HOME' && (
                             <>
-                                <HtmlHome/>
+                               <h1>home</h1>
                             </>
                         )}
                         {selectedLink === 'HTML Introduction' && (
                             <>
-                                <Introduction/>
+                                <h2>intro</h2>
                             </>
                         )}
                         {selectedLink === 'HTML Heading' && (
                             <>
-                                <HtmlHeading/>
+                               <h2>bfjd</h2>
                             </>
                         )}
                         {selectedLink === 'HTML Comment' && (
@@ -154,4 +153,4 @@ function Html() {
     );
 }
 
-export default Html;
+export default MySql;
