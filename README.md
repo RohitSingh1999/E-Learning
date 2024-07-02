@@ -9,7 +9,7 @@ knowledge of students.
 for Backend and Database I used Node JS and MySql.
 </p>
 
-<img src="C:\Users\Dell\OneDrive\Desktop\E-learning\src\assets\home1.png">
+<img src="E-learning\src\assets\home1.png">
 
 
 
