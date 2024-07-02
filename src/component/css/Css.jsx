@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function Css() {
-    const [selectedLink, setSelectedLink] = useState('HTML HOME');
+    const [selectedLink, setSelectedLink] = useState('CSS HOME');
 
     const handleLinkClick = (link) => {
         setSelectedLink(link);
@@ -17,115 +17,115 @@ function Css() {
                     <nav className="flex flex-col">
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML HOME')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS HOME')}
                         >
-                            HTML HOME
+                            CSS HOME
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Introduction')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' CSS Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' CSS Introduction')}
                         >
-                            HTML Introduction
+                            CSS Introduction
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Heading' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Heading')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Selector' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Selector')}
                         >
-                            HTML Heading
+                            CSS Selector
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Comment' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Comment')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Comments' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Comments')}
                         >
-                            HTML Comment
+                            CSS Comments
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Style' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Style')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Color' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Color')}
                         >
-                            HTML Style
+                             CSS Color
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Color' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Color')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Background Color' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Background Color')}
                         >
-                            HTML Color
+                            CSS Background Color
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Links' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Links')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Border' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Border')}
                         >
-                            HTML Links
+                            CSS Border
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Image' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Image')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' CSS Margins' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' CSS Margins')}
                         >
-                            HTML Image
+                           CSS Margins
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Page Title' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Page Title')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Padding' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Padding')}
                         >
-                            HTML Page Title
+                            CSS Padding
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Table' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Table')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Hight/Width' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Hight/Width')}
                         >
-                            HTML Table
+                           CSS Hight/Width
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML List' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML List')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Css Link' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Css Linkt')}
                         >
-                            HTML List
+                            Css Link
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Div' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Div')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Font' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Font')}
                         >
-                            HTML Div
+                            CSS Font
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Classes' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Classes')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS List' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS List')}
                         >
-                            HTML Classes
+                            CSS List
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Id' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Id')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'CSS Table' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('CSS Table')}
                         >
-                            HTML Id
+                            CSS Table
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Iframe' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Iframe')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Css Z-Index' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Css Z-Index')}
                         >
-                            HTML Iframe
+                            Css Z-Index
                         </Link>
                         {/* Add more sidebar links as needed */}
                     </nav>
                 </aside>
                 <main className="flex-1 p-4 overflow-y-auto">
                     <section className="mb-4">
-                        {selectedLink === 'HTML HOME' && (
+                        {selectedLink === 'CSS HOME' && (
                             <>
                                <h1>home</h1>
                             </>

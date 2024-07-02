@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function MySql() {
-    const [selectedLink, setSelectedLink] = useState('HTML HOME');
+    const [selectedLink, setSelectedLink] = useState('MySQL Home');
 
     const handleLinkClick = (link) => {
         setSelectedLink(link);
@@ -17,120 +17,120 @@ function MySql() {
                     <nav className="flex flex-col">
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML HOME')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL Home' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL Home')}
                         >
-                            HTML HOME
+                           MySQL Home
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Introduction')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL Introduction')}
                         >
-                            HTML Introduction
+                            MySQL Introduction
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Heading' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Heading')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL SQL' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL SQL')}
                         >
-                            HTML Heading
+                            MySQL SQL
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Comment' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Comment')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL SELECT' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL SELECT')}
                         >
-                            HTML Comment
+                            MySQL SELECT
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Style' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Style')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL WHERE' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL WHERE')}
                         >
-                            HTML Style
+                            MySQL WHERE
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Color' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Color')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL AND, OR and NOT' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL AND, OR and NOT')}
                         >
-                            HTML Color
+                            MySQL AND, OR and NOT
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Links' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Links')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL ORDER BY' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL ORDER BY')}
                         >
-                            HTML Links
+                           MySQL ORDER BY
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Image' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Image')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL INSERT INTO' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL INSERT INTO')}
                         >
-                            HTML Image
+                            MySQL INSERT INTO
                         </Link>
                         <Link 
                             to="#" 
                             className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Page Title' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Page Title')}
+                            onClick={() => handleLinkClick('MySQL NULL Values')}
                         >
-                            HTML Page Title
+                            MySQL NULL Values
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Table' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Table')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL UPDATE' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL UPDATE')}
                         >
-                            HTML Table
+                            MySQL UPDATE
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML List' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML List')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL DELETE' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL DELETE')}
                         >
-                            HTML List
+                            MySQL DELETE
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Div' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Div')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL LIMIT' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL LIMIT')}
                         >
-                            HTML Div
+                           MySQL LIMIT
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Classes' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Classes')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL MIN and MAX' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL MIN and MAX')}
                         >
-                            HTML Classes
+                            MySQL MIN and MAX
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Id' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Id')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL COUNT, AVG and SUM' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL COUNT, AVG and SUM')}
                         >
-                            HTML Id
+                            MySQL COUNT, AVG and SUM
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Iframe' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Iframe')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'MySQL LIKE' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('MySQL LIKE')}
                         >
-                            HTML Iframe
+                            MySQL LIKE
                         </Link>
                         {/* Add more sidebar links as needed */}
                     </nav>
                 </aside>
                 <main className="flex-1 p-4 overflow-y-auto">
                     <section className="mb-4">
-                        {selectedLink === 'HTML HOME' && (
+                        {selectedLink === 'MySQL Home' && (
                             <>
                                <h1>home</h1>
                             </>
                         )}
-                        {selectedLink === 'HTML Introduction' && (
+                        {selectedLink === 'MySQL Introduction' && (
                             <>
                                 <h2>intro</h2>
                             </>

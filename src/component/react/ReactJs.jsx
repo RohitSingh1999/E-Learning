@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function ReactJs() {
-    const [selectedLink, setSelectedLink] = useState('HTML HOME');
+    const [selectedLink, setSelectedLink] = useState('React Home');
 
     const handleLinkClick = (link) => {
         setSelectedLink(link);
@@ -17,115 +17,115 @@ function ReactJs() {
                     <nav className="flex flex-col">
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML HOME')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Home' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Home')}
                         >
-                            HTML HOME
+                            React Home
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Introduction')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Introduction')}
                         >
-                            HTML Introduction
+                            React Introduction
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Heading' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Heading')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Rander Html' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Rander Html')}
                         >
-                            HTML Heading
+                            React Rander Html
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Comment' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Comment')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Jsx' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Jsx')}
                         >
-                            HTML Comment
+                            React Jsx
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Style' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Style')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Component' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Component')}
                         >
-                            HTML Style
+                          React Component
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Color' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Color')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Class' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Class')}
                         >
-                            HTML Color
+                            React Class
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Links' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Links')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Props' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Props')}
                         >
-                            HTML Links
+                            React Props
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Image' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Image')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Event' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Event')}
                         >
-                            HTML Image
+                            React Event
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Page Title' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Page Title')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Conditionals' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Conditionals')}
                         >
-                            HTML Page Title
+                            React Conditionals
                         </Link>
                         <Link 
                             to="#" 
                             className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Table' ? 'bg-sky-300 rounded-md' : ''}`} 
                             onClick={() => handleLinkClick('HTML Table')}
                         >
-                            HTML Table
+                            React List
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML List' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML List')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React ES6' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React ES6')}
                         >
-                            HTML List
+                           React ES6
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Div' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Div')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Form' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Form')}
                         >
-                            HTML Div
+                            React Form
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Classes' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Classes')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Router' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Router')}
                         >
-                            HTML Classes
+                           React Router
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Id' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Id')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Memo' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Memo')}
                         >
-                            HTML Id
+                            React Memo
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Iframe' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Iframe')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'React Css Style' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('React Css Style')}
                         >
-                            HTML Iframe
+                           React Css Style
                         </Link>
                         {/* Add more sidebar links as needed */}
                     </nav>
                 </aside>
                 <main className="flex-1 p-4 overflow-y-auto">
                     <section className="mb-4">
-                        {selectedLink === 'HTML HOME' && (
+                        {selectedLink === 'React Home' && (
                             <>
                                <h1>home</h1>
                             </>

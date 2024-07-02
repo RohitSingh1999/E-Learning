@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import JsHome from './JsHome';
 
 
 
 function JavaScript() {
-    const [selectedLink, setSelectedLink] = useState('HTML HOME');
+    const [selectedLink, setSelectedLink] = useState('JavaScript HOME');
 
     const handleLinkClick = (link) => {
         setSelectedLink(link);
@@ -17,117 +18,117 @@ function JavaScript() {
                     <nav className="flex flex-col">
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML HOME')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript HOME')}
                         >
-                            HTML HOME
+                            JavaScript HOME
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Introduction')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript Introduction')}
                         >
-                            HTML Introduction
+                            JavaScript Introduction
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Heading' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Heading')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript Output' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript Output')}
                         >
-                            HTML Heading
+                            JavaScript Output
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Comment' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Comment')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript Statement' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript Statement')}
                         >
-                            HTML Comment
+                            JavaScript Statement
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Style' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Style')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript Comment' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript Comment')}
                         >
-                            HTML Style
+                           JavaScript Comment
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Color' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Color')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' JavaScript Variable' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' JavaScript Variable')}
                         >
-                            HTML Color
+                            JavaScript Variable
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Links' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Links')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' JavaScript let' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' JavaScript let')}
                         >
-                            HTML Links
+                            JavaScript let
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Image' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Image')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' JavaScript const' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' JavaScript const')}
                         >
-                            HTML Image
+                             JavaScript const
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Page Title' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Page Title')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === '  JavaScript Operator' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('  JavaScript Operator')}
                         >
-                            HTML Page Title
+                            JavaScript Operator
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Table' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Table')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript Arithmetic' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript Arithmetic')}
                         >
-                            HTML Table
+                              JavaScript Arithmetic
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML List' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML List')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript Assignment' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript Assignment')}
                         >
-                            HTML List
+                            JavaScript Assignment
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Div' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Div')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' JavaScript Data Type' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' JavaScript Data Type')}
                         >
-                            HTML Div
+                           JavaScript Data Type
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Classes' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Classes')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' JavaScript Function' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' JavaScript Function')}
                         >
-                            HTML Classes
+                             JavaScript Function
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Id' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Id')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'JavaScript Object' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('JavaScript Object')}
                         >
-                            HTML Id
+                            JavaScript Object
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Iframe' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Iframe')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === ' JavaScript Event' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick(' JavaScript Event')}
                         >
-                            HTML Iframe
+                          JavaScript Event
                         </Link>
                         {/* Add more sidebar links as needed */}
                     </nav>
                 </aside>
                 <main className="flex-1 p-4 overflow-y-auto">
                     <section className="mb-4">
-                        {selectedLink === 'HTML HOME' && (
+                        {selectedLink === 'JavaScript HOME' && (
                             <>
-                               <h1>home</h1>
+                               <JsHome/>
                             </>
                         )}
                         {selectedLink === 'HTML Introduction' && (

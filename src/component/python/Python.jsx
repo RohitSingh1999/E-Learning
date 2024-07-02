@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function Python() {
-    const [selectedLink, setSelectedLink] = useState('HTML HOME');
+    const [selectedLink, setSelectedLink] = useState('Python Home');
 
     const handleLinkClick = (link) => {
         setSelectedLink(link);
@@ -17,125 +17,125 @@ function Python() {
                     <nav className="flex flex-col">
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML HOME')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Home' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Home')}
                         >
-                            HTML HOME
+                            Python Home
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Introduction')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Pyhton Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Introduction')}
                         >
-                            HTML Introduction
+                            Python Introduction
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Heading' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Heading')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Comments' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Comments')}
                         >
-                            HTML Heading
+                            Python Comments
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Comment' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Comment')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Variables' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Variables')}
                         >
-                            HTML Comment
+                           Python Variables
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Style' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Style')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Data Types' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Data Types')}
                         >
-                            HTML Style
+                            Python Data Types
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Color' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Color')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Numbers' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Numbers')}
                         >
-                            HTML Color
+                            Python Numbers
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Links' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Links')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Casting' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Casting')}
                         >
-                            HTML Links
+                            Python Casting
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Image' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Image')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Strings' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Strings')}
                         >
-                            HTML Image
+                            Python Strings
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Page Title' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Page Title')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Booleans' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Booleans')}
                         >
-                            HTML Page Title
+                            Python Booleans
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Table' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Table')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Operators' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Operators')}
                         >
-                            HTML Table
+                           Python Operators
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML List' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML List')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Lists' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Lists')}
                         >
-                            HTML List
+                            Python Lists
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Div' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Div')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Tuples' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Tuples')}
                         >
-                            HTML Div
+                            Python Tuples
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Classes' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Classes')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python If ... Else' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python If ... Else')}
                         >
-                            HTML Classes
+                            Python If ... Else
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Id' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Id')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Functions' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Functions')}
                         >
-                            HTML Id
+                           Python Functions
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Iframe' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Iframe')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Python Arrays' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Python Arrays')}
                         >
-                            HTML Iframe
+                            Python Arrays
                         </Link>
                         {/* Add more sidebar links as needed */}
                     </nav>
                 </aside>
                 <main className="flex-1 p-4 overflow-y-auto">
                     <section className="mb-4">
-                        {selectedLink === 'HTML HOME' && (
+                        {selectedLink === 'Python Home' && (
                             <>
                                <h1>home</h1>
                             </>
                         )}
-                        {selectedLink === 'HTML Introduction' && (
+                        {selectedLink === 'Python Introduction' && (
                             <>
                                 <h2>intro</h2>
                             </>
                         )}
-                        {selectedLink === 'HTML Heading' && (
+                        {selectedLink === 'Python Comments' && (
                             <>
                                <h2>bfjd</h2>
                             </>

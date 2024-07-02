@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 function Java() {
-    const [selectedLink, setSelectedLink] = useState('HTML HOME');
+    const [selectedLink, setSelectedLink] = useState('Java HOME');
 
     const handleLinkClick = (link) => {
         setSelectedLink(link);
@@ -17,120 +17,120 @@ function Java() {
                     <nav className="flex flex-col">
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML HOME')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java HOME' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java HOME')}
                         >
-                            HTML HOME
+                            Java HOME
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Introduction')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Introduction')}
                         >
-                            HTML Introduction
+                            Java Introduction
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Heading' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Heading')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Commments' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Commments')}
                         >
-                            HTML Heading
+                           Java Commments
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Comment' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Comment')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Output' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Output')}
                         >
-                            HTML Comment
+                            Java Output
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Style' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Style')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Variable' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Variable')}
                         >
-                            HTML Style
+                           Java Variable
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Color' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Color')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Data Types' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Data Types')}
                         >
-                            HTML Color
+                            Java Data Types
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Links' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Links')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Operators' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Operators')}
                         >
-                            HTML Links
+                            Java Operators
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Image' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Image')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java String' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java String')}
                         >
-                            HTML Image
+                            Java String
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Page Title' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Page Title')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Math' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Math')}
                         >
-                            HTML Page Title
+                            Java Math
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Table' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Table')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Booleans' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Booleans')}
                         >
-                            HTML Table
+                            Java Booleans
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML List' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML List')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java if...else' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java if...else')}
                         >
-                            HTML List
+                           Java if...else
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Div' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Div')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Loops' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Loops')}
                         >
-                            HTML Div
+                            Java Loops
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Classes' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Classes')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Function' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Function')}
                         >
-                            HTML Classes
+                            Java Function
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Id' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Id')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Arrays' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Arrays')}
                         >
-                            HTML Id
+                            Java Arrays
                         </Link>
                         <Link 
                             to="#" 
-                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'HTML Iframe' ? 'bg-sky-300 rounded-md' : ''}`} 
-                            onClick={() => handleLinkClick('HTML Iframe')}
+                            className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Break/Continue' ? 'bg-sky-300 rounded-md' : ''}`} 
+                            onClick={() => handleLinkClick('Java Break/Continue')}
                         >
-                            HTML Iframe
+                           Java Break/Continue
                         </Link>
                         {/* Add more sidebar links as needed */}
                     </nav>
                 </aside>
                 <main className="flex-1 p-4 overflow-y-auto">
                     <section className="mb-4">
-                        {selectedLink === 'HTML HOME' && (
+                        {selectedLink === 'Java HOME' && (
                             <>
                                <h1>home</h1>
                             </>
                         )}
-                        {selectedLink === 'HTML Introduction' && (
+                        {selectedLink === 'Java Introduction' && (
                             <>
                                 <h2>intro</h2>
                             </>
