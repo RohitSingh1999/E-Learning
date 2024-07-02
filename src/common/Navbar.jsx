@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import img from '../assets/logo.png'
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,8 +14,8 @@ function Navbar() {
             <nav className="bg-sky-300 border-gray-200 dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <NavLink to="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+                        <img src={img} className="h-8" alt="Flowbite Logo" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">E-Learning</span>
                     </NavLink>
                     <div className="flex items-center md:order-2 space-x-4">
                         <NavLink to="/login" className="text-white bg-black px-2 py-1 rounded-lg hover:bg-green-500 font-bold">Login</NavLink>
