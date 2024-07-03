@@ -8,9 +8,9 @@ knowledge of students.
 <p>I created this website using React Technology, including HTML, Tailwind CSS, , and JavaScript.
 for Backend and Database I used Node JS and MySql.
 </p>
-
-<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/videos.mp4">
-
+<video autoplay>
+<source src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/videos.mp4" type="video/mp4">
+</video>
 
 
 </div>
