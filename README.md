@@ -14,4 +14,10 @@ for Backend and Database I used Node JS and MySql.
 
 ![home1](https://github.com/RohitSingh1999/E-Learning/assets/154702706/748b0137-a51c-4709-b67b-e2c8e198e070)
 
+<h2>Registration Page </h2><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/res.png"> <br><br>
+<h2>Login Page</h2><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/login.png">
+
+
 </div>
