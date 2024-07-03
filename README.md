@@ -8,8 +8,7 @@ knowledge of students.
 <p>I created this website using React Technology, including HTML, Tailwind CSS, , and JavaScript.
 for Backend and Database I used Node JS and MySql.
 </p>
-![videoh-ezgif com-video-to-gif-converter](https://github.com/RohitSingh1999/E-Learning/assets/154702706/b357945d-b8c1-400b-b35e-758a2fa72a43)
-
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/video.gif" width="100%">
 
 ![home1](https://github.com/RohitSingh1999/E-Learning/assets/154702706/748b0137-a51c-4709-b67b-e2c8e198e070)
 
