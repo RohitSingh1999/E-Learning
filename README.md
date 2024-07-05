@@ -12,18 +12,18 @@ for Backend and Database I used Node JS and MySql.
 <img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/videos.mp4" width="100%"><br> <br>
 <h2>HOME PAGE 1</h2><br>
 
-![home1](https://github.com/RohitSingh1999/E-Learning/assets/154702706/748b0137-a51c-4709-b67b-e2c8e198e070)
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/HomeMain.png"><br><br>
 
 <h2>Registration Page </h2><br>
-<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/res.png"> <br><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/registration.png"> <br><br>
 <h2>Login Page</h2><br>
-<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/login.png"><br><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/LoginMain.png"><br><br>
 
 <h2>JavaScript :-</h2><br>
-<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/javapic.png"><br><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/JavaScriptpage.png"><br><br>
 <h2>HTML :-</h2><br>
-<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/Htmlpic.png"><br><br>
-<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/Htm2.png"><br><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/HtmlPage.png"><br><br>
+
 
 
 
