@@ -17,7 +17,15 @@ for Backend and Database I used Node JS and MySql.
 <h2>Registration Page </h2><br>
 <img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/res.png"> <br><br>
 <h2>Login Page</h2><br>
-<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/login.png">
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/login.png"><br><br>
+
+<h2>JavaScript :-</h2><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/javapic.png"><br><br>
+<h2>HTML :-</h2><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/Htmlpic.png"><br><br>
+<img src="https://github.com/RohitSingh1999/E-Learning/blob/main/src/assets/Htm2.png"><br><br>
+
+
 
 
 </div>
