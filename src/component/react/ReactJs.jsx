@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import ReactHome from './ReactHome';
 
 
 
@@ -127,7 +128,7 @@ function ReactJs() {
                     <section className="mb-4">
                         {selectedLink === 'React Home' && (
                             <>
-                               <h1>home</h1>
+                              <ReactHome></ReactHome>
                             </>
                         )}
                         {selectedLink === 'HTML Introduction' && (

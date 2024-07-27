@@ -16,6 +16,7 @@ import Registration from './Registration';
 import JavaScript from './component/javaScript/JavaScript'
 import AboutUs from './component/AboutUs'
 
+
 function App() {
   return (
     <>
@@ -35,6 +36,7 @@ function App() {
           <Route path="/mySql" element={<MySql/>}></Route>
           <Route path="/python" element={<Python/>}></Route>
           <Route path="/about" element={<AboutUs/>}></Route>
+         
         </Routes>
       </Router>
       <Footer />

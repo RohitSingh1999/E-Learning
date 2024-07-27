@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import JavaHome from './JavaHome';
+import JavaIntoduction from './JavaIntoduction';
 
 
 
@@ -127,12 +129,12 @@ function Java() {
                     <section className="mb-4">
                         {selectedLink === 'Java HOME' && (
                             <>
-                               <h1>home</h1>
+                              <JavaHome/>
                             </>
                         )}
                         {selectedLink === 'Java Introduction' && (
                             <>
-                                <h2>intro</h2>
+                                <JavaIntoduction/>
                             </>
                         )}
                         {selectedLink === 'HTML Heading' && (

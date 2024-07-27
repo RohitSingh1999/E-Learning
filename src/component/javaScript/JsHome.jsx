@@ -4,7 +4,7 @@ function JsHome() {
   return (
     <>
     <div>
-        <div className='bg-sky-100 py-10 pl-3 text-3xl font-bold'>Learn JavaScript
+        <div className='bg-sky-100 py-10 pl-3 text-3xl font-bold rounded-md'>Learn JavaScript
              </div>
              <p className='w-[800px] mt-5'>JavaScript is the most powerful and versatile web programming language. It is used for making the websites interactive. JavaScript helps us add features like animations, interactive forms and dynamic content to web pages.</p>
 

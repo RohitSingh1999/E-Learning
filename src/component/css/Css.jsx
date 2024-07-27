@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import CssHome from './CssHome';
 
 
 function Css() {
@@ -127,7 +127,7 @@ function Css() {
                     <section className="mb-4">
                         {selectedLink === 'CSS HOME' && (
                             <>
-                               <h1>home</h1>
+                              <CssHome/>
                             </>
                         )}
                         {selectedLink === 'HTML Introduction' && (
