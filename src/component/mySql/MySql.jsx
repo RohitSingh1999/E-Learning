@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import MysqlHome from './MysqlHome';
 
 
 
@@ -127,22 +128,22 @@ function MySql() {
                     <section className="mb-4">
                         {selectedLink === 'MySQL Home' && (
                             <>
-                               <h1>home</h1>
+                               <MysqlHome/>
                             </>
                         )}
                         {selectedLink === 'MySQL Introduction' && (
                             <>
-                                <h2>intro</h2>
+                               
                             </>
                         )}
                         {selectedLink === 'HTML Heading' && (
                             <>
-                               <h2>bfjd</h2>
+                              
                             </>
                         )}
                         {selectedLink === 'HTML Comment' && (
                             <>
-                                <h1>rohit</h1>
+
                             </>
                         )}
                         {/* Add more conditions for other selected links */}

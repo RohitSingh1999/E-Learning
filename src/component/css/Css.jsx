@@ -132,17 +132,17 @@ function Css() {
                         )}
                         {selectedLink === 'HTML Introduction' && (
                             <>
-                                <h2>intro</h2>
+                               
                             </>
                         )}
                         {selectedLink === 'HTML Heading' && (
                             <>
-                               <h2>bfjd</h2>
+                             
                             </>
                         )}
                         {selectedLink === 'HTML Comment' && (
                             <>
-                                <h1>rohit</h1>
+                              
                             </>
                         )}
                         {/* Add more conditions for other selected links */}

@@ -139,12 +139,12 @@ function Java() {
                         )}
                         {selectedLink === 'HTML Heading' && (
                             <>
-                               <h2>bfjd</h2>
+                             
                             </>
                         )}
                         {selectedLink === 'HTML Comment' && (
                             <>
-                                <h1>rohit</h1>
+                                
                             </>
                         )}
                         {/* Add more conditions for other selected links */}

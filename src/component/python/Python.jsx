@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import PythonHome from './PythonHome';
 
 
 function Python() {
@@ -127,22 +127,22 @@ function Python() {
                     <section className="mb-4">
                         {selectedLink === 'Python Home' && (
                             <>
-                               <h1>home</h1>
+                              <PythonHome/>
                             </>
                         )}
                         {selectedLink === 'Python Introduction' && (
                             <>
-                                <h2>intro</h2>
+                               
                             </>
                         )}
                         {selectedLink === 'Python Comments' && (
                             <>
-                               <h2>bfjd</h2>
+                               
                             </>
                         )}
                         {selectedLink === 'HTML Comment' && (
                             <>
-                                <h1>rohit</h1>
+                               
                             </>
                         )}
                         {/* Add more conditions for other selected links */}
