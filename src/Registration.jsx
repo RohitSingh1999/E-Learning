@@ -18,12 +18,17 @@ function Registration() {
     const handleSubmit = (e) => {
         e.preventDefault();
         authService.Registration(form).then(response => {
-            console.log(response.data.message);
-            window.location.href = '/login'; // Redirect to login page
+            if (response && response.data) {
+                console.log(response.data.message);
+                window.location.href = '/login'; // Redirect to login page
+            } else {
+                console.error('Response or data is undefined');
+            }
         }).catch(err => {
-            console.error(err.response.data.message);
+            console.error(err.response ? err.response.data.message : 'An error occurred');
         });
     };
+    
 
     return (
         <div className="h-full bg-gray-400 dark:bg-gray-900">
@@ -90,8 +95,8 @@ function Registration() {
                                             id="password"
                                             type="password"
                                             placeholder="******************"
-                                            name='password'
-                                            value={form.password}
+                                            name='Password'
+                                            value={form.Password}
                                             onChange={handleChange}
                                         />
                                         <p className="text-xs italic text-red-500">Please choose a password.</p>

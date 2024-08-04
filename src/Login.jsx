@@ -39,8 +39,8 @@ function Login() {
                                 </div>
                                 <div className="mb-6">
                                     <label className="block text-lg font-semibold">Password</label>
-                                    <input type="password" name="password" className="w-full border border-gray-300 px-4 py-2 rounded-lg" placeholder="Enter your password"
-                                        value={form.password} onChange={handleChange} />
+                                    <input type="password" name="Password" className="w-full border border-gray-300 px-4 py-2 rounded-lg" placeholder="Enter your password"
+                                        value={form.Password} onChange={handleChange} />
                                 </div>
                                 <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600" type="submit">
                                     Login

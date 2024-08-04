@@ -17,12 +17,14 @@ exports.Registration = (req, res) => {
         res.json({ message: 'User registered successfully' });
     });
 };
-
 exports.Login = (req, res) => {
     const { email, password } = req.body;
 
     db.query('SELECT * FROM users WHERE email = ?', [email], (err, results) => {
-        if (err) throw err;
+        if (err) {
+            console.error('Database query error:', err);
+            return res.status(500).json({ message: 'Error during login' });
+        }
 
         if (results.length === 0) {
             return res.status(404).json({ message: 'User not found' });
@@ -30,7 +32,13 @@ exports.Login = (req, res) => {
 
         const user = results[0];
 
-        const passwordIsValid = bcrypt.compareSync(password, user.password);
+        // Ensure you're using the correct field name from the database
+        if (!user.Password) {
+            console.error('No password found for user:', user);
+            return res.status(500).json({ message: 'Server error: password data missing' });
+        }
+
+        const passwordIsValid = bcrypt.compareSync(password, user.Password);
 
         if (!passwordIsValid) {
             return res.status(401).json({ message: 'Invalid Password' });
