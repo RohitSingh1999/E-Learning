@@ -4,9 +4,9 @@ const db = require('../config/db');
 exports.Registration = (req, res) => {
     const { firstName, lastName, email, password, cnfPassword } = req.body;
 
-    if (password !== cnfPassword) {
-        return res.status(400).json({ message: 'Passwords do not match' });
-    }
+    // if (password !== cnfPassword) {
+    //     return res.status(400).json({ message: 'Passwords do not match' });
+    // }
 
     const hashedPassword = bcrypt.hashSync(password, 8);
 

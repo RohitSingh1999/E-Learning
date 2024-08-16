@@ -15,7 +15,7 @@ function Login() {
         e.preventDefault();
         authService.Login(form).then(response => {
             console.log(response.data.message);
-            window.location.href = '/Hero'; // Redirect to the Hero page
+            window.location.href = '/'; // Redirect to the Hero page
         }).catch(err => {
             console.error(err.response.data.message);
         });
