@@ -29,7 +29,7 @@ function Java() {
                             className={`p-2 hover:bg-sky-200 rounded-md ${selectedLink === 'Java Introduction' ? 'bg-sky-300 rounded-md' : ''}`} 
                             onClick={() => handleLinkClick('Java Introduction')}
                         >
-                            Java Introduction
+                            Java Introduction.
                         </Link>
                         <Link 
                             to="#" 
